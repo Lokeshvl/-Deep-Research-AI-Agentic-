@@ -20,7 +20,7 @@ A multi-agent research assistant built using **LangGraph**, deployed with **Stre
 - LangGraph
 - Streamlit
 - dotenv
-- LLM APIs (OpenAI or compatible)
+- LLM APIs (Gemini or compatible)
 
 ---
 # Clone the repo
