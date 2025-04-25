@@ -31,3 +31,31 @@ graph LR
     A[User Query] --> B[ResearchAgent]
     B --> C[AnswerAgent]
     C --> D[Streamlit Output]
+
+
+# Clone the repo
+git clone https://github.com/yourusername/kairon-langgraph-assistant.git
+cd kairon-langgraph-assistant
+
+# Set up virtual environment
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Add your API keys to .env
+cp .env.example .env
+# edit .env and fill in the keys
+
+# Run the app
+streamlit run app.py
+
+
+kairon-langgraph-assistant/
+├── main.py                  # Streamlit frontend
+├── agents/
+│   ├── research_agent.py   # Info-gathering logic
+│   └── answer_agent.py     # Answer generation
+├── .env.example            # Environment variable template
+
