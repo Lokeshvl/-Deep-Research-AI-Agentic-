@@ -24,8 +24,8 @@ A multi-agent research assistant built using **LangGraph**, deployed with **Stre
 
 ---
 # Clone the repo
-git clone https://github.com/yourusername/kairon-langgraph-assistant.git
-cd kairon-langgraph-assistant
+git clone (https://github.com/Lokeshvl/-Deep-Research-AI-Agentic-.git)
+cd -Deep-Research-AI-Agentic-
 
 # Set up virtual environment
 python -m venv venv
